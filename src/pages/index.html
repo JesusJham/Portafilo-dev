@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto de neón</title>
+  <style>
+    /* Definir el estilo del texto */
+    .neon-text {
+      font-size: 48px;
+      font-weight: bold;
+      color: #fff; /* Color del texto */
+      text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00; /* Crear el efecto de neón */
+      animation: neon-glow 1.5s infinite alternate; /* Animación para el efecto de neón */
+    }
+    
+    /* Definir la animación */
+    @keyframes neon-glow {
+      from {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00; /* Color inicial del neón */
+      }
+      to {
+        text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00, 0 0 100px #00ff00, 0 0 150px #00ff00, 0 0 300px #00ff00; /* Color final del neón */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="neon-text">¡Texto de neón!</h1>
+</body>
+</html>
