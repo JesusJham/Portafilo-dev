@@ -1,20 +1,59 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Badge from '../components/Badge.astro';
-import Header from '../components/Header.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Badge from "../components/Badge.astro";
+import LinkedInIcon from "../components/icons/LinkedIn.astro";
+import GitHubIcon from "../components/icons/GitHub.astro";
+import MailIcon from "../components/icons/Mail.astro";
+import Header from "../components/Header.astro";
+import SocialPill from "../components/SocialPill.astro";
+import Mail from "../components/icons/Mail.astro";
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout
+	title="Porfolio de Jesús - Desarrollador y Programador Web"
+	description="Soy un apasionado Desarrollador Web Junior con un gran entusiasmo por la tecnología y el aprendizaje continuo."
+>
 	<main>
 		<section class="w-full mx-auto lg:w-[740px] py-44">
-		<h1 class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10 " >Hey  Soy Jesús <a href="https://www.linkedin.com/in/jesus-hidalgo02/" target="_blank" rel="noopener" class="flex justify-center items-center"><Badge>Disponible para trabajar</Badge></a></h1>
-		<h2 class="text-3xl pb-5" >Desarrollador Web Junior</h2>
-		<h3 class="text-2xl pb-2 font-bold shadow-xl text-green-400">¡Bienvenido a mi portafolio!</h3>
-		<h1 class="text-xl text-wrap">Soy un apasionado <span class="text-yellow-300/90 opacity-90">Desarrollador Web Junior</span> con un gran entusiasmo por la tecnología y el aprendizaje continuo. Desde que descubrí mi interés por la programación, he estado dedicando tiempo y esfuerzo a mejorar mis habilidades y explorar nuevas tecnologías.</h1>
-		<ul></ul>
+			<h1
+				class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10"
+			>
+				Hey Soy Jesús <a
+					href="https://www.linkedin.com/in/jesus-hidalgo02/"
+					target="_blank"
+					rel="noopener"
+					class="flex justify-center items-center"
+					><Badge>Disponible para trabajar</Badge></a
+				>
+			</h1>
+			<h2 class="text-3xl pb-5 font-bold shadow-xl text-green-400">
+				Desarrollador Web Junior
+			</h2>
+			<h3 class="text-2xl pb-2 shadow-xl text-green-300">
+				¡Bienvenido a mi portafolio!
+			</h3>
+			<h1 class="text-xl text-wrap">
+				Soy un apasionado <span class="text-yellow-300/90 opacity-90"
+					>Desarrollador Web Junior</span
+				> con un gran entusiasmo por la tecnología y el aprendizaje continuo.
+				Desde que descubrí mi interés por la programación, he estado dedicando
+				tiempo y esfuerzo a mejorar mis habilidades y explorar nuevas tecnologías.
+			</h1>
+			<nav class="flex gap-x-4 mt-8">
+				<SocialPill href="https://www.linkedin.com/in/jesus-hidalgo02/">
+					<LinkedInIcon class="size-6" />
+					LinkedIn
+				</SocialPill>
+				<SocialPill href="https://github.com/JesusJham">
+					<GitHubIcon class="size-6" />
+					GitHub
+				</SocialPill>
+				<SocialPill href="https://github.com/JesusJham">
+					<MailIcon class="size-6" />
+					jhidalgo0202@gmail.com
+				</SocialPill>
+			</nav>
 		</section>
 	</main>
 </Layout>
-
-
