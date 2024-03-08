@@ -1,13 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Card from "../components/Card.astro";
 import Badge from "../components/Badge.astro";
+import SectionContainer from "../components/SectionContainer.astro";
 import LinkedInIcon from "../components/icons/LinkedIn.astro";
 import GitHubIcon from "../components/icons/GitHub.astro";
 import MailIcon from "../components/icons/Mail.astro";
-import Header from "../components/Header.astro";
+import Briefcase from "../components/icons/Briefcase.astro";
 import SocialPill from "../components/SocialPill.astro";
-import Mail from "../components/icons/Mail.astro";
+import Experience from "../components/Experiencie.astro";
 ---
 
 <Layout
@@ -15,9 +15,9 @@ import Mail from "../components/icons/Mail.astro";
 	description="Soy un apasionado Desarrollador Web Junior con un gran entusiasmo por la tecnología y el aprendizaje continuo."
 >
 	<main>
-		<section class="w-full mx-auto lg:w-[740px] py-44">
+		<SectionContainer class="py-44 pb-24">
 			<h1
-				class="text-white text-5xl font-bold flex flex-row gap-x-4 pb-10"
+				class="text-white text-2xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-10"
 			>
 				Hey Soy Jesús <a
 					href="https://www.linkedin.com/in/jesus-hidalgo02/"
@@ -49,11 +49,19 @@ import Mail from "../components/icons/Mail.astro";
 					<GitHubIcon class="size-6" />
 					GitHub
 				</SocialPill>
-				<SocialPill href="https://github.com/JesusJham">
+				<SocialPill href="mailto:jhidalgo0202@gmail.com">
 					<MailIcon class="size-6" />
 					jhidalgo0202@gmail.com
 				</SocialPill>
 			</nav>
-		</section>
+		</SectionContainer>
+
+		<SectionContainer id="experiencia">
+			<h2 class="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+				<Briefcase class="size-7" />
+				Experiencia Laboral
+			</h2>
+			<Experience />
+		</SectionContainer>
 	</main>
 </Layout>
