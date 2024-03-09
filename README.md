@@ -1,54 +1,31 @@
-# Astro Starter Kit: Basics
+# Portafolio de Desarrollador Web Junior
 
-```sh
-npm create astro@latest -- --template basics
-```
+### ¡Bienvenido a mi portafolio!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+#####  Acerca de mí
+Soy un apasionado desarrollador web junior con una sólida formación en tecnologías front-end y back-end. Mi objetivo es crear experiencias web atractivas y funcionales que impacten positivamente a los usuarios.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Tecnologías Dominantes
+- **Front-end:** HTML, CSS, JavaScript, React.js
+- **Back-end:** Node.js, Express.js
+- **Base de Datos:** MongoDB, MySQL
+- **Herramientas y Otros:** Git, GitHub, VSCode
+------------
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### Proyectos Destacados
+Aquí hay algunos proyectos en los que he trabajado:
 
-## 🚀 Project Structure
+1. **[Réplica de la Página de Inicio de Tesla](https://proyecto-landing-tesla.netlify.app)** - Este proyecto es una réplica del diseño de la página de inicio de Tesla. Utilicé HTML, JavaScript, Tailwind CSS y Astro para recrear la apariencia y funcionalidad de la página principal de Tesla. Este proyecto me permitió mejorar mis habilidades en el desarrollo front-end y practicar el diseño responsivo utilizando Flexbox y CSS Grid.
 
-Inside of your Astro project, you'll see the following folders and files:
+------------
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Contacto
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+¡Estoy emocionado por nuevas oportunidades de colaboración! Si estás interesado en trabajar juntos o tienes alguna pregunta, no dudes en contactarme a través de:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- Correo Electrónico: [jhidalgo0202@gmail.com](mailto:jhidalgo0202@gmail.com)
+- LinkedIn: [Jesus Hidalgo](https://www.linkedin.com/in/jesus-hidalgo02/)
+- Sitio Web: [JesusHL-Dev](https://main--portafoliojesushl.netlify.app/)
 
-Any static assets, like images, can be placed in the `public/` directory.
+¡Gracias por visitar mi portafolio!
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
